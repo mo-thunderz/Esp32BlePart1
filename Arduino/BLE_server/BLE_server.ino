@@ -20,8 +20,8 @@ uint32_t value = 0;
 // See the following for generating UUIDs:
 // https://www.uuidgenerator.net/
 
-#define SERVICE_UUID        "f0020be1-0239-4a33-ae7b-efe352ac0c5a"
-#define CHARACTERISTIC_UUID "7e0ab709-bca8-4b54-bd22-44930aad68fa"
+#define SERVICE_UUID        "4fafc201-1fb5-459e-8fcc-c5c9c331914b"
+#define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 
 class MyServerCallbacks: public BLEServerCallbacks {
     void onConnect(BLEServer* pServer) {
